@@ -18,6 +18,13 @@ pub fn guess_game() {
             Ok(num) => num,
             Err(_) => continue,
         };
+
+
+        if guess < 1 || guess > 100 {
+            println!("The secret number will be between 1 and 100");
+            continue;
+        }
+
         println!("Your guess is {}", guess);
         match guess.cmp(&secret_number) {
             Ordering::Less => println!("Too small!"),

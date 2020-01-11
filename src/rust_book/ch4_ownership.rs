@@ -120,5 +120,4 @@ pub fn test_methods() {
 
     let p1 = Point { x: 12, y: 44 };
     p1.calc();
-//    println!("{}", p1.x);
 }

@@ -18,6 +18,11 @@ use rust_book::*;
 
 fn main() {
 //    ch2_guess_game::guess_game();
-    ch4_ownership::test_methods();
-    ch10_generic_traits_lefetime::lifetimes::test_longest();
+//    ch4_ownership::test_methods();
+//    ch10_generic_traits_lefetime::lifetimes::test_longest();
+//    ch8_collections::test_string();
+//    ch8_collections::test_hashmap();
+    ch9_error_handling::test();
+
 }
+
