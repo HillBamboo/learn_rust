@@ -1,0 +1,11 @@
+[package]
+name = "learn_rust"
+version = "0.1.0"
+authors = ["hill <bamboohill@outlook.com>"]
+edition = "2018"
+#build = "main.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.3.14"
